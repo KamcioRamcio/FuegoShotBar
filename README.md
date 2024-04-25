@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 To see whole page you need to make folder in src/assets named Films and put files from link below ther :>
+https://drive.google.com/drive/u/0/folders/1ZOE34n1Hu3COXETUkX6l9V7cjxIYHlsG
