@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Your other styles... */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    scroll-behavior: smooth;
+    
+  }
+
+  .legal_background_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .legal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+ .legal_text{
+    font-size: 12px;
+ }
+
+ .left_text{
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: fixed;
+    top: 450px; 
+    left: -10px; 
+    z-index: 1000; 
+    height: 80px;
+    width: max-content;
+    transform: rotate(-90deg);
+ }
+ .right_text{
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: fixed;
+    top: 450px; 
+    right: -10px; 
+    z-index: 1000; 
+    height: 80px;
+    width: max-content;
+    transform: rotate(90deg);
+ }
+  .fixed_photo{
+    z-index: 1000;
+    width: 70px;
+    height: 80px;
+    transform: rotate(15deg);
+  }
+  .FUEGO {
+    height: 110px;
+    width:330px;
+    padding: 5px 0px 5px 40px;
+    
+  }
+  .nav {
+    font-size: 22px;
+  }
+  .foot {
+    font-size: 20px;
+  }
+  /* COLORS */
+  .fuego_neon {
+    background: linear-gradient(to right, #FF0000, #FFA500, #FFFF00, #8b21e2, #2497e4);
+    color: transparent;
+    text-shadow: 0px 0 6px rgba(111, 209, 226, 0.1);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .red_neon {
+    
+    color: transparent;
+    text-shadow: 0 0 10px rgba(219, 78, 78, 1);
+    background: linear-gradient(to bottom,  #df7575, #ff4a4a);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .yellow_neon {
+    
+    color: transparent;
+    text-shadow: 0 0 6px rgba(251, 255, 16, 0.712);
+    background: linear-gradient(to bottom, #ffff00, #ffcc00);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .orange_neon {
+    
+    color: transparent;
+    text-shadow: 0 0 10px rgba(241, 150, 46, 0.712);
+    background: linear-gradient(to bottom, #f09104, #ff6600);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .purple_neon {
+    
+    color: transparent;
+    text-shadow: 0 0 10px rgba(192, 128, 235, 0.7);
+    background: linear-gradient(to bottom, #ff00ff, #9900cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .cyan_neon {
+    
+    color: transparent;
+    text-shadow: 0 0 10px rgba(134, 221, 255, 0.7);
+    background: linear-gradient(to bottom, #00ffff, #00ccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .fixed_shot {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 1000;
+    height: 80px;
+    width: 80px;
+  }
+  .shot_about{
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+    
+  }
+/*Gallery*/
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 150px;
+}
+.gallery a img {
+  width: 280px;
+  height: 230px;
+  object-fit: cover;
+  border: solid 3px rgba(18, 69, 236, 0.3);
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #640164, #4d022a);
+}
+.swiper-pagination-bullet {
+  background-color: rgb(241, 232, 93);
+  height: 20px;
+  width: 20px;
+  
+}
+.swiper-pagination-bullet-active {
+  background-color: rgb(241, 93, 204);
+  height: 20px;
+  width: 20px;
+}
+@media screen and (max-width: 930px) {
+  .gallery {
+    padding: 50px;
+  }
+  .gallery a img {
+    width: 220px;
+    height: 240px;
+  }
+}
+
+
+@media screen and (max-width: 810px) {
+  .gallery {
+    padding: 50px;
+  }
+  .gallery a img {
+    width: 200px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .gallery {
+    padding: 50px;
+  }
+  .gallery a img {
+    width: 170px;
+    height: 200px;
+  }
+  .left_text{
+    font-size: 20px;
+    left: -10px;
+  }
+  .right_text{
+    font-size: 20px;
+    right: -10px;
+  }
+  .fixed_shot{
+    display: none;
+  }
+  
+}
+@media screen and  (max-width: 510px){
+  .gallery {
+    padding: 50px;
+  }
+  .gallery a img {
+    width: 130px;
+    height: 160px;
+  }
+  .foot {
+    font-size: 18px;
+  }
+  
+  
+}
+@media screen and (max-width: 430px) {
+  .gallery {
+    padding: 50px;
+  }
+  .gallery a img {
+    width: 110px;
+    height: 130px;
+  }
+  .foot {
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 380px) {
+  .gallery {
+    padding: 50px 5px 50px 5px;
+  }
+  .gallery a img {
+    width: 90px;
+    height: 110px;
+  }
+  .foot {
+    font-size: 12px;
+  }
+  
+}
