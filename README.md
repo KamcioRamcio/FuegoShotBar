@@ -8,6 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-PRZYDATNE KOMENDY
-
-magick convert Bar2.jpg -resize 200x250! G-Bar2.jpg
+To see whole page you need to make folder in src/assets named Films and put files from link below ther :>
