@@ -1,5 +1,5 @@
 import React from 'react'
-import {FixedShot, FixedPhoto, Navbar, Film, About, Places, Gallery, Footer, Contact } from '../components'
+import {FixedShot, FixedPhoto, Navbar, Film, About, Places, Gallery, Footer, Contact, Franchising, Join } from '../components'
 
 const Home = () => {
   return (
@@ -18,6 +18,8 @@ const Home = () => {
         <Places />
         <Gallery />
         <Contact />
+        <Join/>
+        <Franchising /> 
         <Footer />
       </div>
       </div>

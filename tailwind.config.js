@@ -12,7 +12,9 @@ export default {
       '900' : {'max':'900px'},
       'l-tablet': {'max':'1000px'},
       'xl-tablet': {'max':'1200px'},
+      'xs-pc': {'max':'1300px'},
       's-pc': {'max':'1350px'},
+      'large': '1000px',
     },
     colors:{
       'primary': '#FF6363',

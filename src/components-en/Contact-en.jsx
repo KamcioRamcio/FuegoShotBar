@@ -7,7 +7,7 @@ import Pion3 from '../assets/Films/T-Pion3.mp4'
 import { useRef, useState, useInView } from 'react';
 
 
-const Contact = () => {
+const ContactEN = () => {
     
       const [isPlaying, setIsPlaying] = useState(true);
       const videoRefs = {
@@ -72,7 +72,7 @@ const Contact = () => {
         
         <div className='flex flex-col items-center text-xl space-y-14 text-center tablet:pt-10 pb-10 lg:pr-8 tablet:pr-20'>
           <p>
-            <em className='text-white'>Kontakt</em>
+            <em className='text-white'>Contact</em>
             <br />
             <a href="mailto:biuro@fuegoshotbar.com" className='text-red-600 font-bold'>biuro@fuegoshotbar.com</a>
           </p>
@@ -99,4 +99,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactEN

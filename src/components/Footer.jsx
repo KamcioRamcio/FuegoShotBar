@@ -20,8 +20,8 @@ const Footer = () => {
 
 
   return (
-    <footer className='grid grid-cols-3 items-center pl-20 pb-20 xl-tablet:grid-cols-1 xl-tablet:pl-0 foot pt-20'>
-      <section id="foot_links" className='text-white flex justify-start space-x-8 xl-tablet:justify-center xl-tablet:pl-0 l-phone:space-x-4'>
+    <footer className='grid grid-cols-2 items-center pl-20 pb-20 xl-tablet:grid-cols-1 xl-tablet:pl-0 foot pt-20'>
+      <section id="foot_links" className='text-white flex justify-start space-x-8 xl-tablet:justify-center xl-tablet:pl-0 l-phone:space-x-4 w-5/8'>
         <motion.a href="#about" className='red_neon'
         whileHover={{
           scale: 1.2,
@@ -38,6 +38,14 @@ const Footer = () => {
         onClick={(event) => smoothScroll(event, "places")}
         >Miejsca
         </motion.a>
+        <motion.a href="#gallery" className='pink_neon'
+            whileHover={{
+              scale: 1.2,
+              textShadow: "0px 0px 20px rgb(255, 182, 193)",
+            }}
+            onClick={(event) => smoothScroll(event, "gallery")}
+            >Galeria
+            </motion.a>
         <motion.a href="#contact" className='orange_neon'
         whileHover={{
           scale: 1.2,
@@ -62,10 +70,10 @@ const Footer = () => {
         </motion.a>
 
       </section>
-      <section className='flex flex-row justify-center w-1/4 mx-auto xl-tablet:hidden'>
+      <section className='flex flex-row xl-tablet:hidden xs-pc:justify-end xs-pc:pr-40'>
           <img src={logomini} alt="logo" className="w-30 h-[100px]" id="foot-logo"/>
       </section>
-      <section></section>
+      
     
   </footer>
   )

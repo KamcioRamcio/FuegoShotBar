@@ -3,7 +3,7 @@ import FUEGO from '../assets/MainPhotos/logo.png'
 import {motion} from 'framer-motion'
 import { Link } from 'react-scroll'
 
-const Navbar = () => {
+const NavbarEN = () => {
 
   const smoothScroll = (event, targetId) => {
     event.preventDefault(); 
@@ -32,7 +32,7 @@ const Navbar = () => {
               textShadow: "0px 0px 20px rgb(253, 78, 78)",
             }}
             onClick={(event) => smoothScroll(event, "about")}
-            >O Nas
+            >About Us 
             </motion.a>
             <motion.a href="#places" className="yellow_neon"
             whileHover={{
@@ -40,7 +40,7 @@ const Navbar = () => {
               textShadow: "0px 0px 20px rgb(253, 255, 20)",
             }}
             onClick={(event) => smoothScroll(event, "places")}
-            >Miejsca
+            >Locations 
             </motion.a>
             <motion.a href="#gallery" className='pink_neon'
             whileHover={{
@@ -48,7 +48,7 @@ const Navbar = () => {
               textShadow: "0px 0px 20px rgb(255, 182, 193)",
             }}
             onClick={(event) => smoothScroll(event, "gallery")}
-            >Galeria
+            >Galerry
             </motion.a>
             <motion.a href="#contact" className='orange_neon'
             whileHover={{
@@ -56,7 +56,7 @@ const Navbar = () => {
               textShadow: "0px 0px 20px rgb(243, 154, 52)",
             }}
             onClick={(event) => smoothScroll(event, "contact")}
-            >Kontakt
+            >Contact 
             </motion.a>
             <motion.a href="/join" className='purple_neon'
             whileHover={{
@@ -78,12 +78,12 @@ const Navbar = () => {
             </motion.a>
             
         </section>
-        <div className='xl:w-[220px] pl-2 pr-4 space-x-6 text-white tablet:text-[20px] tablet:pr-2 m-phone:text-[10px]'>
-            <a href="/en">EN</a>
+        <div className='xl:w-[220px] pl-2 pr-4 space-x-6 text-white tablet:text-[20px] tablet:pr-4 m-phone:text-[10px]'>
+            <a href="/home">PL</a>
             <a href="/ua">UA</a>
         </div>
     </div>
   )
 }
 
-export default Navbar
+export default NavbarEN

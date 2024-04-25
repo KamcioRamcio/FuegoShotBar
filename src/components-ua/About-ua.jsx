@@ -27,7 +27,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const About = () => {
+const AboutUA = () => {
   return (
     <div className='w-full flex flex-row text-white pt-20 space-x-14 justify-center items-center l-tablet:flex-col l-tablet:space-x-0 tablet:pt-0' id="about">
       <motion.div className='xl-tablet:hidden p-10'>
@@ -98,27 +98,27 @@ const About = () => {
       </motion.div>
       <motion.div className=' text-white pr-10 l-tablet:text-center l-tablet:pt-12 l-tablet:pr-8 l-tablet:pl-8 space-y-1 text-[18px]' id="about_text"
         >
-          <p>Fuego nie jest standardowym grzecznym miejscem, </p>
-          <p>które nie da się w żaden sposób zaszufladkować.</p>
-          <p>To shot bar, który nie boi się eksperymentować i prowokować zmysłów.</p>
-          <p>Tutaj nie ma miejsca na nudę i schematy</p>
-          <p>FUEGO idzie za głosem serca i bawi się życiem według własnych zasad.</p>
-          <p>Fuego nic nie musi...</p>
-          <p>Fuego żyje według scenariusza, </p>
-          <p>który napisały jego pragnienia.</p>
-          <p>Fuego idzie za głosem serca, </p>
-          <p>rozum gubiąc po drodze...</p>
-          <p>Fuego uwielbia shot'y i eksperymenty...</p>
-          <p>zatraca się muzyce i tańcu </p>
-          <p>emocje rozpalając do czerwoności podczas każdej wizyty. </p>
-          <p>Z Fuego nie ma miejsca na żale</p>
-          <p>After all no regrest...</p>
-          <p>Uwolnij emocje z FUEGO</p>
-          <p>Take a shot</p>
-          <p className='text-red-500 font-bold'>FUEGO</p>
+          <p>Фуего не є типовим ввічливим місцем </p>
+          <p>яке не можна ніяк віднести до певної категорії. </p>
+          <p>Це шот-бар, який не боїться експериментувати й провокувати почуття.  </p>
+          <p>Тут немає місця для нудьги та схем.  </p>
+          <p>Фуего йде за голосом серця й розважається у житті за своїми правилами </p>
+          <p>Фуего нічого не має обов'язку...  </p>
+          <p>Фуего живе за сценарієм,</p>
+          <p>що написали його бажання.</p>
+          <p>Фуего йде за голосом серця,  </p>
+          <p>заблукуючи розумом по дорозі... </p>
+          <p>Фуего обожнює шоти й експерименти, </p>
+          <p>втрачаючись у музиці й танцях,  </p>
+          <p>розпалюючи емоції до червоністю під час кожного візиту</p>
+          <p>З Фуего немає місця для жалю.</p>
+          <p>Після усього без жалю... </p>
+          <p>Вільте емоції з Фуего </p>
+          <p>Пей шот </p>
+          <p className='text-red-500 font-bold'>Фуего </p>
         </motion.div>
     </div>
   )
 }
 
-export default About
+export default AboutUA

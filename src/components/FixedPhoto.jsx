@@ -4,9 +4,9 @@ import React from 'react';
 const FixedPhoto = () => {
   return (
     <div>
-        <div className="left_text fuego_neon">  Take A Shot  </div>
+        <div className="left_text emocje">  Uwolnij Emocje  </div>
     
-        <div className="right_text fuego_neon">  Take A Shot  </div>
+        <div className="right_text emocje">  Uwolnij Emocje  </div>
     </div>
     
   );

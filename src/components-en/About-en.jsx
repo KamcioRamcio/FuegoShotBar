@@ -27,7 +27,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const About = () => {
+const AboutEN = () => {
   return (
     <div className='w-full flex flex-row text-white pt-20 space-x-14 justify-center items-center l-tablet:flex-col l-tablet:space-x-0 tablet:pt-0' id="about">
       <motion.div className='xl-tablet:hidden p-10'>
@@ -98,22 +98,22 @@ const About = () => {
       </motion.div>
       <motion.div className=' text-white pr-10 l-tablet:text-center l-tablet:pt-12 l-tablet:pr-8 l-tablet:pl-8 space-y-1 text-[18px]' id="about_text"
         >
-          <p>Fuego nie jest standardowym grzecznym miejscem, </p>
-          <p>które nie da się w żaden sposób zaszufladkować.</p>
-          <p>To shot bar, który nie boi się eksperymentować i prowokować zmysłów.</p>
-          <p>Tutaj nie ma miejsca na nudę i schematy</p>
-          <p>FUEGO idzie za głosem serca i bawi się życiem według własnych zasad.</p>
-          <p>Fuego nic nie musi...</p>
-          <p>Fuego żyje według scenariusza, </p>
-          <p>który napisały jego pragnienia.</p>
-          <p>Fuego idzie za głosem serca, </p>
-          <p>rozum gubiąc po drodze...</p>
-          <p>Fuego uwielbia shot'y i eksperymenty...</p>
-          <p>zatraca się muzyce i tańcu </p>
-          <p>emocje rozpalając do czerwoności podczas każdej wizyty. </p>
-          <p>Z Fuego nie ma miejsca na żale</p>
-          <p>After all no regrest...</p>
-          <p>Uwolnij emocje z FUEGO</p>
+          <p>Fuego is not a standard polite place, </p>
+          <p>that cannot be classified in any way.</p>
+          <p>It is a shot bar that is not afraid to experiment and provoke the senses. </p>
+          <p>There is no place for boredom and routines here. </p>
+          <p>FUEGO follows the voice of the heart and plays with life according to its own rules. </p>
+          <p>Fuego doesn't have to... </p>
+          <p>Fuego lives by a script, </p>
+          <p>written by its desires. </p>
+          <p>Fuego follows the voice of the heart, </p>
+          <p>losing reason along the way... </p>
+          <p>Fuego loves shots and experiments, </p>
+          <p>loses itself in music and dance, </p>
+          <p>igniting emotions to redness during each visit.</p>
+          <p>There is no place for regrets with Fuego. </p>
+          <p>After all no regrets... </p>
+          <p>Release your emotions with FUEGO</p>
           <p>Take a shot</p>
           <p className='text-red-500 font-bold'>FUEGO</p>
         </motion.div>
@@ -121,4 +121,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutEN

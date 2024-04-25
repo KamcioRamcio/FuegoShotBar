@@ -7,7 +7,7 @@ import Pion3 from '../assets/Films/T-Pion3.mp4'
 import { useRef, useState, useInView } from 'react';
 
 
-const Contact = () => {
+const ContactUA = () => {
     
       const [isPlaying, setIsPlaying] = useState(true);
       const videoRefs = {
@@ -72,31 +72,31 @@ const Contact = () => {
         
         <div className='flex flex-col items-center text-xl space-y-14 text-center tablet:pt-10 pb-10 lg:pr-8 tablet:pr-20'>
           <p>
-            <em className='text-white'>Kontakt</em>
+            <em className='text-white'>Контакт </em>
             <br />
             <a href="mailto:biuro@fuegoshotbar.com" className='text-red-600 font-bold'>biuro@fuegoshotbar.com</a>
           </p>
           <p>
             <em className='text-white'>Instagram</em>
             <br />
-            <a href="https://www.instagram.com/fuego.katowice/?ig_mid=ACDD6343-DBF0-42A7-9489-F7E7E65DC429" className='text-red-600 font-bold'>Fuego Katowice</a>
+            <a href="https://www.instagram.com/fuego.katowice/?ig_mid=ACDD6343-DBF0-42A7-9489-F7E7E65DC429" className='text-red-600 font-bold'>Fuego Катовице </a>
             <br />
-            <a href="https://www.instagram.com/fuego.sosnowiec" className='text-red-600 font-bold'> Fuego Sosnowiec</a>
+            <a href="https://www.instagram.com/fuego.sosnowiec" className='text-red-600 font-bold'>Fuego Сосновице </a>
             <br/>
-            <a href="https://www.instagram.com/fuego.dziwnow/" className='text-red-600 font-bold'>Fuego Dziwnów</a>     
+            <a href="https://www.instagram.com/fuego.dziwnow/" className='text-red-600 font-bold'>Fuego Дзвінов</a>     
           </p>
           <p>
             <em className='text-white'>Facebook</em>
             <br />
-            <a href="https://www.facebook.com/FuegoKatowice/" className='text-red-600 font-bold'>Fuego Katowice</a>
+            <a href="https://www.facebook.com/FuegoKatowice/" className='text-red-600 font-bold'>Fuego Катовице </a>
             <br/>
-            <a href="https://www.facebook.com/p/fuegososnowiec-61553377552442/" className='text-red-600 font-bold'>Fuego Sosnoweic</a>
+            <a href="https://www.facebook.com/p/fuegososnowiec-61553377552442/" className='text-red-600 font-bold'>Fuego Сосновице</a>
             <br/>
-            <a href="https://www.facebook.com/profile.php?id=61559101731542" className='text-red-600'>Fuego Dziwnów</a>
+            <a href="https://www.facebook.com/profile.php?id=61559101731542" className='text-red-600'>Fuego Дзвінов</a>
           </p>
         </div>
         </motion.div>
   )
 }
 
-export default Contact
+export default ContactUA

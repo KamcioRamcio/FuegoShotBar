@@ -1,14 +1,14 @@
 import React from 'react'
 import Background from '../assets/Background/Background.jpg'
-import { FixedPhoto } from '../components'
+import { FixedPhotoEN } from '../components-en'
 import photo from '../assets/MainPhotos/1kieliszek.png'; // Import your photo
 import { motion } from "framer-motion"
 
-const Legal = () => {
+const LegalEN = () => {
   return (
     <>
     <div className='tablet:hidden'>
-      <FixedPhoto />
+      <FixedPhotoEN />
     </div>
     
     <div className='legal_background_container text-s'>
@@ -19,8 +19,8 @@ const Legal = () => {
           <table className='bg-slate-900 border border-stone-300 text-white max-w-[80vh]'>
               <tr>
                   <td className='border-b p-2 pb-4' colSpan={2}>
-                      <h1 className='text-red-500 pb-1'>Uwaga!</h1>
-                      <p>Cześć, ta strona jest przeznaczona dla dorosłych użytkowników:</p>
+                      <h1 className='text-red-500 pb-1'>Attention! </h1>
+                      <p>Hi, this website is intended for adult users: </p>
                   </td>
               </tr>
               
@@ -33,10 +33,10 @@ const Legal = () => {
               
                 >
                   <td className='border-r p-4'>
-                    <a href="home">Tak</a>
+                    <a href="en/home">Yes</a>
                   </td>
                   <td className='p-2'>
-                      <a href="home">Mam ukończone 18 lat i zgadzam się na wykorzystanie ciasteczek</a>
+                      <a href="en/home"> I am over 18 years old and I agree to the use of cookies </a>
                   </td>
               </motion.tr>
               <motion.tr
@@ -47,10 +47,10 @@ const Legal = () => {
                 }}
                 >
                   <td className='border-r p-4'>
-                    <a href="https://www.google.pl/">Nie</a>
+                    <a href="https://www.google.pl/">No</a>
                   </td>
                   <td className='p-2'>
-                      <a href="https://www.google.pl/">Nie mam jeszcze 18 lat i chcę opuścić stronę</a>
+                      <a href="https://www.google.pl/">I am not yet 18 years old and I want to leave the site</a>
                   </td>
               </motion.tr>
           </table>
@@ -65,4 +65,4 @@ const Legal = () => {
   )
 }
 
-export default Legal
+export default LegalEN
