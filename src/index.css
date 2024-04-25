@@ -186,6 +186,8 @@ body {
   height: 20px;
   width: 20px;
 }
+
+
 @media screen and (max-width: 930px) {
   .gallery {
     padding: 50px;
@@ -205,6 +207,9 @@ body {
     width: 200px;
     height: 220px;
   }
+  .fixed_shot{
+    display: none;
+  }
 }
 @media screen and (max-width: 570px) {
   .gallery {
@@ -222,9 +227,7 @@ body {
     font-size: 20px;
     right: -10px;
   }
-  .fixed_shot{
-    display: none;
-  }
+  
   
 }
 @media screen and  (max-width: 510px){
@@ -244,10 +247,11 @@ body {
 @media screen and (max-width: 430px) {
   .gallery {
     padding: 50px;
+    gap: 30px;
   }
   .gallery a img {
-    width: 110px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
   }
   .foot {
     font-size: 16px;
@@ -260,8 +264,8 @@ body {
     padding: 50px 5px 50px 5px;
   }
   .gallery a img {
-    width: 90px;
-    height: 110px;
+    width: 130px;
+    height: 120px;
   }
   .foot {
     font-size: 12px;

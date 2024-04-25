@@ -70,7 +70,7 @@ const Contact = () => {
             </video>
         </div>
         
-        <div className='flex flex-col items-center text-xl space-y-14 text-center tablet:pt-10 pb-10 lg:pr-8 tablet:pr-16'>
+        <div className='flex flex-col items-center text-xl space-y-14 text-center tablet:pt-10 pb-10 lg:pr-8 tablet:pr-20'>
           <p>
             <em className='text-white'>Kontakt</em>
             <br />

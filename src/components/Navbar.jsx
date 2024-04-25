@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link to="home" className='l-tablet:w-full l-tablet:text-center l-tablet:block'>
             <img src={FUEGO} alt="FUEGO" className='FUEGO l-tablet:mx-auto' />
         </Link>
-        <section id="nav_links" className='text-white flex justify-center space-x-20 xl-tablet:space-x-16 l-tablet:hidden'>
+        <section id="nav_links" className='text-white flex justify-center space-x-20 xl-tablet:space-x-12 l-tablet:hidden xl-tablet:text-lg xl-tablet:pr-14'>
             <motion.a href="#about" className='red_neon'
             whileHover={{
               scale: 1.2,
