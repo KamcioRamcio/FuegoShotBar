@@ -4,11 +4,11 @@ import {motion} from 'framer-motion'
  
 const Franchising = () => {
   return (
-    <div className='flex flex-row space-x-32 items-center justify-center text-center p-20 l-tablet:flex-col l-tablet:space-x-0' id='franchise'>
+    <div className='flex flex-row space-x-32 items-center justify-center text-center p-20 l-tablet:flex-col l-tablet:space-x-0 l-tablet:p-8' id='franchise'>
         <div className='large:hidden'>
             <img src={left}></img>
         </div>
-        <div className='text-white w-7/12 items-center text-ceter text-[18px]  l-tablet:w-full l-tablet:pt-10'>
+        <div className='text-white w-7/12 items-center text-ceter text-[18px]  l-tablet:w-full l-tablet:pt-10 '>
             
             <p>Jesteś gotowy na start własnego biznesu? </p>
             <p>Pragniesz poczuć dreszczyk emocji i spełnić swoje marzenia o niezależności finansowej? </p>

@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
  
 const FranchisingEN = () => {
   return (
-    <div className='flex flex-row space-x-12 items-center justify-center text-center p-20 l-tablet:flex-col l-tablet:space-x-0' id='franchise'>
+    <div className='flex flex-row space-x-12 items-center justify-center text-center p-20 l-tablet:flex-col l-tablet:space-x-0 l-tablet:p-8' id='franchise'>
         <div className='large:hidden'>
             <img src={left}></img>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../assets/Background/Background.jpg'
+import logo from '../assets/MainPhotos/logo.png'
 import { FixedPhotoUA } from '../components-ua'
 import photo from '../assets/MainPhotos/1kieliszek.png'; // Import your photo
 import { motion } from "framer-motion"
@@ -7,16 +7,22 @@ import { motion } from "framer-motion"
 const LegalUA = () => {
   return (
     <>
-    <div className='tablet:hidden'>
+    <div className='tablet:hidden '>
       <FixedPhotoUA />
     </div>
     
-    <div className='legal_background_container text-s'>
+    <div className='legal_background_container text-s bg-slate-950'>
     
-        <img src={Background} alt="background" className='legal_background' />
+       
        <div className='relative'>
         <section className='z-10 pr-4 pl-4'>
-          <table className='bg-slate-900 border border-stone-300 text-white max-w-[80vh]'>
+          <table className='bg-slate-950 border border-stone-300 text-white max-w-[80vh]'>
+          <tr>
+              <td className='border-b pb-4 p-2 text-center ' colSpan={2}>
+                  <img src={logo} alt="FUEGO" className='mx-auto d-block' />
+              </td>
+          </tr>
+
               <tr>
                   <td className='border-b p-2 pb-4' colSpan={2}>
                       <h1 className='text-red-500 pb-1'>Увага! </h1>

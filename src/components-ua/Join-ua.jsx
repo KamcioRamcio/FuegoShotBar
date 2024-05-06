@@ -3,7 +3,7 @@ import join from '../assets/Photos/S-Join.jpg'
 import { motion } from "framer-motion"
 const JoinUA = () => {
   return (
-    <div id="join" className='flex flex-row justify-center items-center text-center x-space-32 p-20 l-tablet:flex-col l-tablet:x-space-0'>
+    <div id="join" className='flex flex-row justify-center items-center text-center x-space-32 p-20 l-tablet:flex-col l-tablet:x-space-0 l-tablet:p-8'>
         <div>
           <img src={join}></img>
         </div>

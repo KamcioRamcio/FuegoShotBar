@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import film from '../assets/Films/T-Film.mp4'
+import { motion } from "framer-motion"
 
 const Film = () => {
   const videoRef = useRef(null);
@@ -23,11 +24,16 @@ const Film = () => {
   }
 
   return (
-    <div className='flex justify-center pt-[100px] object-cover max-h-[1000px] max-w-[1900px]'>
+    <motion.div 
+      className='flex justify-center pt-[100px] object-cover max-h-[1000px] max-w-[1900px]'
+      initial={{ y: '100vh' }} // start from the bottom
+      animate={{ y: 0 }} // animate to the top
+      transition={{ type: 'spring', stiffness: 50, delay: 0.5 }} // adjust the transition as needed
+    >
       <video autoPlay playsInline ref={videoRef} onClick={handleVideoClick} onDoubleClick={handleVideoDoubleClick}>
         <source src={film} type="video/mp4" />
       </video>
-    </div>
+    </motion.div>
   )
 }
 
