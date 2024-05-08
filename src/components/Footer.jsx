@@ -54,18 +54,20 @@ const Footer = () => {
         onClick={(event) => smoothScroll(event, "contact")}
         >Kontakt
         </motion.a>
-        <motion.a href="/join" className='purple_neon'
+        <motion.a href="#join" className='purple_neon'
         whileHover={{
           scale: 1.2,
           textShadow: "0px 0px 4px rgb(184, 93, 245)",
         }}
+        onClick={(event) => smoothScroll(event, "join")}
         >TeamFuego
         </motion.a>
-        <motion.a href="/franchise" className='cyan_neon'
+        <motion.a href="#franchise" className='cyan_neon'
         whileHover={{
           scale: 1.2,
           textShadow: "0px 0px 4px rgb(59, 214, 235)",
         }}
+        onClick={(event) => smoothScroll(event, "franchise")}
         >Franchise
         </motion.a>
 

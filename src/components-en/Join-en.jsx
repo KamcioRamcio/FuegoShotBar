@@ -7,7 +7,8 @@ const JoinEN = () => {
         <div>
           <img src={join}></img>
         </div>
-        <div className='text-white w-5/12 items-center text-ceter text-[18px] space-y-2 pl-20 l-tablet:w-full l-tablet:pl-0 l-tablet:pt-10'>
+        <div className='text-white w-7/12 items-center text-ceter text-[18px] space-y-2 pl-20 l-tablet:w-full l-tablet:pl-0 l-tablet:pt-10'>
+          <p className='text-red-500 font-bold text-xl'>TEAM FUEGO</p>
           <p>We are a dynamic team that is not afraid of challenges and focuses on development.</p>
           <p>By working with us, you have the opportunity to gain valuable experience,</p>
           <p>develop interpersonal skills, and build your career in the industry.</p>

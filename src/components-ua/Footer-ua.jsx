@@ -54,7 +54,7 @@ const FooterUA = () => {
             onClick={(event) => smoothScroll(event, "contact")}
             >Контакт  
             </motion.a>
-            <motion.a href="/join" className='purple_neon'
+            <motion.a href="#join" className='purple_neon'
             whileHover={{
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(184, 93, 245)",

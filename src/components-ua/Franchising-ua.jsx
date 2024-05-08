@@ -9,7 +9,7 @@ const FranchisingUA = () => {
             <img src={left}></img>
         </div>
         <div className='text-white w-7/12 items-center text-ceter text-[18px]  l-tablet:w-full l-tablet:pt-10'>
-            
+            <p className='text-red-500 font-bold text-xl'>ФРАНШИЗА</p>
             <p>Готові запустити свій бізнес?</p>
             <p>Бажаєте відчути хвилю емоцій та здійснити свої мрії про фінансову незалежність?</p>
             <p> Якщо так, то франшиза шот-бару Fuego - це ідеальна пропозиція для вас!</p>

@@ -9,7 +9,7 @@ const FranchisingEN = () => {
             <img src={left}></img>
         </div>
         <div className='text-white w-7/12 items-center text-ceter text-[18px]  l-tablet:w-full l-tablet:pt-10'>
-            
+            <p className='text-red-500 font-bold text-xl'>FRANCHISE</p>
             <p>Are you ready to start your own business?  </p>
             <p>Do you want to feel the thrill of excitement and fulfill your dreams of financial independence? </p>
             <p>If so, then the franchise of Fuego shot bar is the perfect proposition for you!</p>
