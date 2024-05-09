@@ -35,14 +35,15 @@ const Navbar = () => {
             <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } bg-slate-950 left-[10px] absolute top-20 my-2 min-w-[140px] z-10 rounded-xl text-s flex flex-col space-y-4 p-4`}
+            } bg-slate-950 left-[10px] absolute top-20 my-2 min-w-[120px] z-10 rounded-xl text-s flex flex-col space-y-4 p-4 text-base`}
             >
               <motion.a href="#about" className='red_neon'
             whileHover={{
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(253, 78, 78)",
             }}
-            onClick={(event) => smoothScroll(event, "about")}
+            onClick={(event) =>{ smoothScroll(event, "about");
+            setToggle(false)}}
             >O Nas
             </motion.a>
             <motion.a href="#places" className="yellow_neon"
@@ -50,7 +51,8 @@ const Navbar = () => {
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(253, 255, 20)",
             }}
-            onClick={(event) => smoothScroll(event, "places")}
+            onClick={(event) => {smoothScroll(event, "places");
+            setToggle(false)}}
             >Miejsca
             </motion.a>
             <motion.a href="#gallery" className='pink_neon'
@@ -58,7 +60,8 @@ const Navbar = () => {
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(255, 182, 193)",
             }}
-            onClick={(event) => smoothScroll(event, "gallery")}
+            onClick={(event) => {smoothScroll(event, "gallery");
+            setToggle(false)}}
             >Galeria
             </motion.a>
             <motion.a href="#contact" className='orange_neon'
@@ -66,7 +69,8 @@ const Navbar = () => {
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(243, 154, 52)",
             }}
-            onClick={(event) => smoothScroll(event, "contact")}
+            onClick={(event) => {smoothScroll(event, "contact");
+            setToggle(false)}}
             >Kontakt
             </motion.a>
             <motion.a href="/join" className='purple_neon'
@@ -74,7 +78,8 @@ const Navbar = () => {
               scale: 1.2,
               textShadow: "0px 0px 20px rgb(184, 93, 245)",
             }}
-            onClick={(event) => smoothScroll(event, "join")}
+            onClick={(event) => {smoothScroll(event, "join");
+            setToggle(false)}}
             >TeamFuego
             
             </motion.a>
@@ -84,7 +89,8 @@ const Navbar = () => {
               textShadow: "0px 0px 20px rgb(59, 214, 235)",
               
             }}
-            onClick={(event) => smoothScroll(event, "franchise")}
+            onClick={(event) => {smoothScroll(event, "franchise");
+            setToggle(false)}}
             >Franchise
             </motion.a>
 
