@@ -10,15 +10,15 @@ const Legal = () => {
     <div className='tablet:hidden'>
       <FixedPhoto />
     </div>
-    <div className='legal_background_container text-s bg-slate-950'>
+    <div className='bg-slate-950'>
+    <div className='flex justify-center'>
+      <img src={logo} />
+    </div>
+    
+    <div className='legal_background_container text-s '>
        <div className='relative'>
         <section className='z-10 pr-4 pl-4'>
           <table className='bg-slate-950 border border-stone-300 text-white max-w-[80vh]'>
-          <tr>
-              <td className='border-b pb-4 p-2 text-center ' colSpan={2}>
-                  <img src={logo} alt="FUEGO" className='mx-auto d-block' />
-              </td>
-          </tr>
               <tr>
                   <td className='border-b p-2 pb-4' colSpan={2}>
                       <h1 className='text-red-500 pb-1'>Uwaga!</h1>
@@ -59,6 +59,7 @@ const Legal = () => {
       </section>
       <div className="absolute right-[-30px] bottom-[-30px] tablet:hidden">
         <img src={photo} alt="Fixed Photo" className='fixed_photo' />
+      </div>
       </div>
       </div>
     </div>
