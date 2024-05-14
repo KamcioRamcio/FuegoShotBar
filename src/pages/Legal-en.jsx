@@ -13,7 +13,7 @@ const Legal = () => {
       <div className="bg-slate-950">
         <div className="legal_background_container text-s w-full">
           <div className="relative">
-            <div className="flex justify-center pb-10 pl-16 pr-12 mt-[-100px]">
+            <div className="flex justify-center pb-10 pl-16 pr-116 mt-[-100px] pt-20 ">
               <img src={logo} alt="Logo" />
             </div>
             <section className="z-10 pr-4 pl-4 flex justify-center">
